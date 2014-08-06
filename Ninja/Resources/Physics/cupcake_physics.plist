@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+    <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>1</integer>
+        </dict>
+        <key>scale_factor</key>
+        <real>2</real>
+        <key>category_names</key>
+        <array>
+        </array>         
+        <key>bodies</key>
+        <dict>
+
+            <key>cupcake</key>
+            <dict>
+                <key>anchorpoint</key>
+                <string>{ 0.50500,0.48222 }</string>
+                <key>is_static</key>
+                <false/>
+                <key>affected_by_gravity</key>
+                <true/>
+                <key>allows_rotation</key>
+                <true/>
+                <key>fixtures</key>
+                <array>
+
+                    <dict>
+                        <key>mass</key>
+                        <real>1</real>
+                        <key>elasticity</key>
+                        <real>0.2</real>
+                        <key>friction</key>
+                        <real>0.7</real>
+                        <key>surface_velocity</key>
+                        <string>{ 0.00000,0.00000 }</string>
+                        <key>corner_radius</key>
+                        <real>0</real>
+                        <key>collision_categories</key>
+                        <integer>0</integer>
+                        <key>collision_mask</key>
+                        <integer>0</integer>
+                        <key>collision_type</key>
+                        <string></string>
+                        <key>collision_group</key>
+                        <string></string>
+                        <key>is_sensor</key>
+                        <false/>
+                        
+                        
+                        <key>fixture_type</key>
+                        <string>POLYGON</string>
+                        <key>polygons</key>
+                        <array>
+                            <array>   
+                                <string>{ 279.00000,369.00000 }</string>   
+                                <string>{ 338.00000,337.00000 }</string>   
+                                <string>{ 262.00000,16.00000 }</string>   
+                                <string>{ 122.00000,17.00000 }</string>   
+                                <string>{ 54.00000,46.00000 }</string>   
+                                <string>{ 15.00000,239.00000 }</string>   
+                                <string>{ 133.00000,362.00000 }</string>   
+                                <string>{ 203.00000,391.00000 }</string>
+                            </array>
+                            <array>   
+                                <string>{ 48.00000,345.00000 }</string>   
+                                <string>{ 133.00000,362.00000 }</string>   
+                                <string>{ 15.00000,239.00000 }</string>   
+                                <string>{ 17.00000,305.00000 }</string>
+                            </array>
+                            <array>   
+                                <string>{ 277.00000,18.00000 }</string>   
+                                <string>{ 158.00000,15.00000 }</string>   
+                                <string>{ 338.00000,337.00000 }</string>   
+                                <string>{ 367.00000,306.00000 }</string>   
+                                <string>{ 385.00000,238.00000 }</string>   
+                                <string>{ 339.00000,41.00000 }</string>
+                            </array>
+                        </array>
+                        
+                        
+                    </dict>
+
+                </array>
+            </dict>
+
+        </dict>
+    </dict>
+</plist>
+
+
+
+
